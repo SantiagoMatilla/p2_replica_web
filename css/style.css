@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
     }
+
 header{
     border: 2px solid red;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.parent_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5em;
+}
+
+.main_icon{
+    width: 15%;
+    border: 2px solid blue;
+}
+
+.menu{
+    width: 50%;
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
 }
