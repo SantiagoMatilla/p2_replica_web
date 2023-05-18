@@ -72,6 +72,7 @@ main{
 h1{
     display: flex;
     justify-content: center;
+    font-size: 40pt;
 }
 p{
     justify-content: center;
@@ -113,9 +114,9 @@ p{
     margin-top: 5em;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5em;
 }
 #options div{
+    border: 2px solid rgb(200, 255, 0);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -131,7 +132,6 @@ p{
     font-size: 9pt;
 }
 #option1, #option2, #option3, #option4, #option5{
-    padding: 15%;
     border-radius: 50%;
     display: flex;
 }
@@ -154,19 +154,73 @@ p{
 
 #description{
     display: flex;
+    justify-content: center;
+    padding-top: 5em;
 }
+
 #img_description{
     display: flex;
+    justify-content: center;
     border: 2px solid rgb(255, 0, 200);
     padding: 2em 5em 0 5em;
 }
-#text_description{
+#img_description img{
+    width: 50%;
+}
+#description_text{
     border: 2px solid rgb(208, 255, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding-top: 5em;
     width: 50vw;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+
+#description2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    padding-bottom: 2em;
+    background-color: rgb(229, 237, 245);
+}
+#description_text2{
+    border: 2px solid rgb(208, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    width: 50vw;
+}
+.organization_buttons{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.5em 1em;
+    background-color: rgb(246, 249, 253);
+    color: rgb(108, 109, 109);
+}
+#description2_text_list{
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#description2_text_list ul{
+    border: 2px solid rgb(0, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img_description2{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 0, 200);
+    padding: 2em 5em 0 5em;
+}
+#img_description2 img{
+    width: 50%;
 }
 
 
