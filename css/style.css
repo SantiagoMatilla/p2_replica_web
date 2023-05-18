@@ -105,7 +105,7 @@ p{
     justify-content: center;
 }
 #iphone_laydown{
-    width: 60%;
+    width: 40%;
 }
 
 #options{
@@ -113,13 +113,13 @@ p{
     margin-top: 5em;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5em;
 }
 #options div{
-    border: 2px solid rgb(217, 255, 0);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 10vw;
+    width: 8vw;
 }
 #options div p{
     border: 2px solid rgb(0, 174, 255);
@@ -128,25 +128,47 @@ p{
     flex-direction: column;
     padding: 0;
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 9pt;
+}
+#option1, #option2, #option3, #option4, #option5{
+    padding: 15%;
+    border-radius: 50%;
+    display: flex;
 }
 
-#options_2{
-    display: flex;
-    justify-content: space-around;
+#option1{
+    background-color: rgb(232, 227, 249);
 }
-#options_2 div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#option2{
+    background-color: rgb(213, 242, 237);
 }
-#options_2 div p{
+#option3{
+    background-color: rgb(247, 225, 231);
+}
+#option4{
+    background-color: rgb(247, 239, 217);
+}
+#option5{
+    background-color: rgb(221, 240, 249);
+}
+
+#description{
     display: flex;
-    justify-content: center;
+}
+#img_description{
+    display: flex;
+    border: 2px solid rgb(255, 0, 200);
+    padding: 2em 5em 0 5em;
+}
+#text_description{
+    border: 2px solid rgb(208, 255, 0);
+    display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0;
-    font-weight: bold;
+    width: 50vw;
 }
+
 
 
         /*FOOTER INSTRUCTIONS*/
